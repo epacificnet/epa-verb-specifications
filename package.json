@@ -1,0 +1,29 @@
+{
+  "name": "@epas/verb-specifications",
+  "version": "0.0.1",
+  "description": "ePas Verb Specification Utilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/",
+    "jslint": "eslint index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epacificnet/epas-verb-specifications.git"
+  },
+  "author": "epacificnet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/epacificnet/epas-verb-specifications/issues"
+  },
+  "homepage": "https://github.com/epacificnet/epas-verb-specifications#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "tape": "^5.6.1"
+  },
+  "dependencies": {
+    "debug": "^4.3.4",
+    "pino": "^8.8.0"
+  }
+}

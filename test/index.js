@@ -1,0 +1,1 @@
+require('./verb-test');
